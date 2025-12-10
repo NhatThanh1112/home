@@ -17,7 +17,7 @@ function handleLogin(event){
             // Signed in 
             var user = userCredential.user;
             alert("Đăng ký thành công")
-            window.location.href = "../Home/sneaker.html";
+            window.location.replace('../Home/sneaker.html')
         })
         .catch((error) => {
             var errorCode = error.code;
