@@ -116,7 +116,7 @@ main {
 }
 
 button:first-child{
-    left: 100%;
+    left: 90%;
     transform: translate(-100%, -50%);
 }
 
